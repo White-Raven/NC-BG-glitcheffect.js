@@ -1,4 +1,6 @@
-let canva = document.getElementById('noise');
+// Where canva is the full area where you want the glitches to appear, and element is your 
+// image/background that won't cause the page/container it's in the redimension itself to the content
+let canva = document.getElementById('element');
 let count = 20;
 for (let i =0; i < count; i++){
 	let glitchbox = document.createElement('div')
